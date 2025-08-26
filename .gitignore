@@ -1,0 +1,37 @@
+# Virtual environment
+venv/
+.env
+
+# Database
+*.sqlite3
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Django
+media/
+staticfiles/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large files that shouldn't be in version control
+*.pt
+*.pth
+*.bin
+*.h5

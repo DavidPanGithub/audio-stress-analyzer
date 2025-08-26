@@ -1,0 +1,1 @@
+web: gunicorn stress_analyzer.wsgi:application --log-file -
